@@ -1,0 +1,86 @@
+{
+   "data" : [
+      {
+         "use_mm_freq" : false,
+         "spend_cap_type" : "even",
+         "zone_name" : "America/New_York",
+         "frequency_interval" : "day",
+         "updated_on" : "2017-04-03T18:40:14+0000",
+         "use_default_ad_server" : false,
+         "initial_start_date" : "2017-04-07T04:00:00+0000",
+         "restrict_targeting_to_deterministic_id" : false,
+         "created_on" : "2017-04-03T15:29:41+0000",
+         "id" : 354687,
+         "total_budget" : [
+            {
+               "currency_code" : "USD",
+               "value" : 6050
+            }
+         ],
+         "service_type" : "SELF",
+         "currency_code" : "USD",
+         "has_custom_attribution" : false,
+         "name" : "Chicory_EgglandsBest_Q2",
+         "ad_server_id" : 2,
+         "frequency_amount" : 4,
+         "restrict_targeting_to_same_device_id" : false,
+         "suspicious_traffic_filter_level" : 25,
+         "end_date" : "2017-07-01T03:59:00+0000",
+         "frequency_optimization" : false,
+         "advertiser_id" : 185337,
+         "conversion_variable_minutes" : 1,
+         "minimize_multi_ads" : false,
+         "status" : true,
+         "goal_type" : "cpc",
+         "frequency_type" : "even",
+         "margin_pct" : 0,
+         "dcs_data_is_campaign_level" : false,
+         "impression_cap_type" : "no-limit",
+         "goal_value" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.25
+            }
+         ],
+         "entity_type" : "campaign",
+         "io_name" : "",
+         "start_date" : "2017-04-07T04:00:00+0000",
+         "io_reference_num" : "",
+         "version" : 2,
+         "override_suspicious_traffic_filter" : false,
+         "agency_fee_pct" : 0,
+         "advertiser" : {
+            "rel" : "advertiser",
+            "minimize_multi_ads" : true,
+            "frequency_type" : "no-limit",
+            "status" : true,
+            "dmp_enabled" : "disabled",
+            "agency_id" : 115944,
+            "frequency_interval" : "not-applicable",
+            "updated_on" : "2017-04-03T15:20:13+0000",
+            "domain" : "https://chicory.co",
+            "data_sharing_enabled" : false,
+            "created_on" : "2017-04-03T15:20:13+0000",
+            "entity_type" : "advertiser",
+            "id" : 185337,
+            "version" : 0,
+            "name" : "Chicory",
+            "ad_server_id" : 2,
+            "allow_x_strat_optimization" : false,
+            "vertical_id" : 13
+         },
+         "impression_cap_automatic" : true,
+         "spend_cap_automatic" : true,
+         "conversion_type" : "variable",
+         "pv_pct" : 100
+      }
+   ],
+   "meta" : {
+      "etag" : "8bd98f6ed34022b0bc2813a0c3e3914e8ecb47a5",
+      "count" : 1,
+      "called_on" : "2017-04-04T20:40:42+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 1
+   }
+}

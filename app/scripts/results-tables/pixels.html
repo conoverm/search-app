@@ -1,0 +1,49 @@
+<table
+  class="table table-hover results-table raw-json-option"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-1">Name, Id</th>
+      <th class="col-xs-1">External Id</th>
+      <th class="col-xs-1">Attributes</th>
+      <th class="text-capitalize col-xs-1">{{$ctrl.selectedEntity.parentEntityType}}</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+    <tr ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')"
+    ng-repeat-start="data in $ctrl.data  | filter:data.name track by $index">
+    <td class="copy-icon"><span class="glyphicon glyphicon-file" aria-hidden="true" id="style{{data.id}}"></span></td>
+    <td>{{data.name}} <div>{{data.id}}</div></td>
+    <td>
+      <div>{{data.external_identifier}}</div>
+    </td>
+    <td>
+      <div>Pixel Type: {{data.pixel_type}}</div>
+      <div>Tag Type: {{data.tag_type}}</div>
+      <div>Pricing: {{data.pricing}}</div>
+      <div ng-if=!!data.eligible>Eligible</div>
+    </td>
+    <td>
+        <div>{{data.advertiser.name}}</div>
+        <div>{{data.advertiser.id}}</div>
+      <p>
+        <div>{{data.advertiser.agency.name}}</div>
+        <div>{{data.advertiser.agency.id}}</div>
+      </p>
+      <div>{{data.advertiser.agency.organization.name}}</div>
+      <div>{{data.advertiser.agency.organization.id}}</div>
+    </td>
+  </tr>
+  <tr ng-repeat-end>
+    <td colspan="5">
+      <div ng-click="data.show = !data.show">…</div>
+      <pre ng-hide="!data.show">{{data | json}}</pre>
+    </td>
+  </tr>
+  </tbody>
+</table>

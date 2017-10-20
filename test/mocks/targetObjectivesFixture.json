@@ -1,0 +1,52 @@
+{
+   "data" : [
+      {
+         "entity_type" : "targeting_segment_objective",
+         "name" : "Interest",
+         "id" : 8
+      },
+      {
+         "entity_type" : "targeting_segment_objective",
+         "name" : "Category",
+         "id" : 2
+      },
+      {
+         "entity_type" : "targeting_segment_objective",
+         "name" : "Custom",
+         "id" : 3
+      },
+      {
+         "entity_type" : "targeting_segment_objective",
+         "name" : "Fraud Detection",
+         "id" : 4
+      },
+      {
+         "entity_type" : "targeting_segment_objective",
+         "name" : "Brand Safety",
+         "id" : 1
+      },
+      {
+         "entity_type" : "targeting_segment_objective",
+         "name" : "TRAQ",
+         "id" : 6
+      },
+      {
+         "entity_type" : "targeting_segment_objective",
+         "name" : "Viewability",
+         "id" : 7
+      },
+      {
+         "entity_type" : "targeting_segment_objective",
+         "name" : "Quality",
+         "id" : 5
+      }
+   ],
+   "meta" : {
+      "etag" : "288228e8a5249125286a76fe8a97d4a6f311b2fa",
+      "count" : 8,
+      "called_on" : "2017-04-25T04:11:50+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 8
+   }
+}

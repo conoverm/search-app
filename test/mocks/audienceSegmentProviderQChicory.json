@@ -1,0 +1,25 @@
+{
+   "data" : [
+      {
+         "buyable" : false,
+         "version" : 0,
+         "name" : "Chicory",
+         "child_count" : 3,
+         "audience_vendor_id" : 449,
+         "updated_on" : "2017-03-02T15:06:03+0000",
+         "created_on" : "2017-03-02T15:04:33+0000",
+         "entity_type" : "audience_segment",
+         "full_path" : "Chicory",
+         "id" : 1730960,
+         "type" : "normal"
+      }
+   ],
+   "meta" : {
+      "etag" : "01512ff7a0c213dd56930d72346aaa1b0ff15ce8",
+      "count" : 1,
+      "called_on" : "2017-04-04T20:25:52+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 1
+   }
+}

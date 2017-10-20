@@ -1,0 +1,22 @@
+{
+   "data" : {
+      "buyable" : false,
+      "version" : 0,
+      "name" : "DV Fraud & Invalid Traffic",
+      "child_count" : 2,
+      "updated_on" : "2017-01-12T15:54:53+0000",
+      "objective_id" : 4,
+      "created_on" : "2016-05-11T19:45:15+0000",
+      "targeting_vendor_id" : 3,
+      "entity_type" : "targeting_segment",
+      "full_path" : "DoubleVerify - DV Fraud & Invalid Traffic",
+      "tag" : "no_code:63c669c108c701fa755850d96c3fe06b",
+      "id" : 5111,
+      "parent_targeting_segment_id" : 4569
+   },
+   "meta" : {
+      "etag" : "4cb87c90467557d581a71a576abbc934e7e4dd8f",
+      "called_on" : "2017-04-20T03:57:36+0000",
+      "status" : "ok"
+   }
+}

@@ -1,0 +1,67 @@
+<table
+  class="table table-hover results-table raw-json-option"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-2">Name, Id</th>
+      <th class="col-xs-1">Total Budget</th>
+      <th class="col-xs-1">Goal</th>
+      <th class="col-xs-2">Start, End Dates</th>
+      <th class="text-capitalize col-xs-2">{{$ctrl.selectedEntity.parentEntityType}}</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+    <tr ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')"
+    ng-repeat-start="data in $ctrl.data | filter:data.name track by $index">
+      <td class="copy-icon"><span class="glyphicon glyphicon-file" aria-hidden="true"  id="style{{data.id}}"></span></td>
+      <td>
+        {{data.name}}
+        <div>{{data.id}}</div>
+      </td>
+      <td>{{data.total_budget[0].currency_code}} {{data.total_budget[0].value | currency:''}}</td>
+      <td>{{data.goal_type | uppercase}}
+        <div>{{data.goal_value[0].currency_code}} {{data.goal_value[0].value | currency:''}}</div>
+      </td>
+      <td>
+        <div>{{ data.start_date | date:'MMM-d-yy HH:mm Z' }}</div>
+        <div>{{ data.end_date | date:'MMM-d-yy HH:mm Z' }}</div>
+      </td>
+      <td>
+        <div>{{data[$ctrl.selectedEntity.parentEntityType].name}}</div>
+        <div>{{data[$ctrl.selectedEntity.parentEntityType].id}}</div>
+      </td>
+    </tr>
+    <tr ng-repeat-end>
+      <td colspan=4>
+        <div ng-click="data.show = !data.show">…</div>
+        <pre ng-hide="!data.show">{{data | json}}</pre>
+      </td>
+      <td colspan=2>
+
+        <a ng-hide="$ctrl.childInfo[data.id]" ng-click="$ctrl.fetchChild(data.id)">{{ 'Strategies …' }}</a>
+
+        <table class="table" ng-show="$ctrl.childInfo[data.id]">
+          <tr>
+            <td colspan="2">{{'Total Strategy Count: ' + $ctrl.childInfo[data.id].meta.total_count}}</td>
+          </tr>
+          <tr ng-repeat="childData in $ctrl.childInfo[data.id].data">
+            <td style="word-wrap: break-word;
+                       overflow-wrap: break-word;
+                       max-width: 25vw;">
+              {{childData.name}}
+            </td>
+            <td>
+              {{childData.id}}
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>

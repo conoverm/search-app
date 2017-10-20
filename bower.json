@@ -1,0 +1,44 @@
+{
+  "name": "ts-id-lookup",
+  "version": "0.0.1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.5",
+    "angular-bootstrap": "^2.2.0",
+    "ng-tags-input": "^3.1.1",
+    "ngclipboard": "~1.1.1",
+    "angular-route": "~1.6.5",
+    "angular-resource": "~1.6.5",
+    "angular-spinners": "~3.1.2",
+    "bootstrap-sass": "^3.3.7",
+    "tagged-infinite-scroll": "https://github.com/ifwe/infinite-scroll.git",
+    "csspin": "^1.1.1",
+    "angular-waypoints": "^2.0.0",
+    "angular-ui-router": "^0.3.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.6.5"
+  },
+  "overrides": {
+    "ng-tags-input": {
+      "main": [
+        "ng-tags-input.js",
+        "ng-tags-input.css",
+        "ng-tags-input.bootstrap.css"
+      ]
+    }
+  },
+  "appPath": "app",
+  "moduleName": "ts-id-lookup",
+  "resolutions": {
+    "angular": "1.6.5"
+  }
+}

@@ -1,0 +1,23 @@
+.DS_Store
+venv
+node_modules
+.tmp
+.sass-cache
+bower_components
+*.pyc
+*.sublime*
+coverage
+npm-debug.log
+aws-server.log
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# no build artifacts in repos, plz
+dist/
+app/scripts/config.js
+
+.vscode/
+
+.env

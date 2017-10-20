@@ -1,0 +1,76 @@
+<div class="row" ng-if="$ctrl.tempCreativePageCreated">
+   <div class="col-xs-12">Live Creative:</div>
+</div>
+
+<div class="row">
+   <div class="col-xs-6">
+      <iframe 
+      ng-src="{{ $ctrl.iframe.src }}"
+      style={{$ctrl.iframe.style}}
+      scroll="auto"
+      border="0"
+      frameborder="0"
+      marginwidth="0"
+      marginheight="0"
+      hspace="0"
+      vspace="0"></iframe>
+   </div>
+   <div class="col-xs-6" ng-if="$ctrl.creative.tag">
+      <pre style="white-space: pre-wrap">{{ $ctrl.creative.tag }}</pre>
+   </div>
+</div>
+
+<div class="panel panel-default">
+   <div class="panel-heading">Entity Heirarchy Related to Creative</div>
+
+   <div class="panel-body">
+
+      <div class="row" ng-if="!$ctrl.conceptStrategyLink">
+         <div class="col-xs-12">Concept not linked to a strategy</div>
+      </div>
+      
+      <p>Total Results: {{ $ctrl.conceptStrategyLink.length || 0 }}</p>
+
+      <div
+         style="margin-top:10px;
+         margin-bottom: 10px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         border-top: 1px solid #ccc"
+         class="row"
+         ng-if="$ctrl.conceptStrategyLink"
+         ng-repeat-start="link in $ctrl.conceptStrategyLink track by $index">
+         <div class="col-xs-4">
+            <div><strong>Strategy Name, Id</strong></div>
+            <div>{{ link.name }}</div>
+            <div>{{ link.id }}</div>
+            <div>status: <mark>{{ link.status }}</mark></div>
+         </div>
+         <div class="col-xs-4">
+            <div><strong>Campaign Name, Id</strong></div>
+            <div>{{ link.campaign.name }}</div>
+            <div>{{ link.campaign.id }}</div>
+            <div>status: <mark>{{ link.campaign.status }}</mark></div>
+         </div>
+      </div>
+
+      <div class="row" ng-repeat-end>
+         <div class="col-xs-4">
+            <div><strong>Advertiser Name, Id</strong></div>
+            <div>{{ link.campaign.advertiser.name }}</div>
+            <div>{{ link.campaign.advertiser.id }}</div>
+         </div>
+         <div class="col-xs-4">
+            <div><strong>Agency Name, Id</strong></div>
+            <div>{{ link.campaign.advertiser.agency.name }}</div>
+            <div>{{ link.campaign.advertiser.agency.id }}</div>
+         </div>
+         <div class="col-xs-4">
+            <div><strong>Organization Name, Id</strong></div>
+            <div>{{ link.campaign.advertiser.agency.organization.name }}</div>
+            <div>{{ link.campaign.advertiser.agency.organization.id }}</div>
+         </div>
+      </div>
+
+   </div>
+</div>

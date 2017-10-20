@@ -1,0 +1,39 @@
+{
+  "data": {
+    "edit_data_definition": true,
+    "view_data_definition": true,
+    "edit_campaigns": true,
+    "access_internal_fees": false,
+    "labs_enable_rmx": false,
+    "updated_on": "2016-04-28T19:12:32+0000",
+    "last_name": "Conover",
+    "email": "mconover@mediamath.com",
+    "view_segments": true,
+    "created_on": "2014-10-22T09:19:02+0000",
+    "view_organizations": true,
+    "entity_type": "user",
+    "view_dmp_reports": true,
+    "id": 8415,
+    "creator_id": 4318,
+    "scope": "GLOBAL",
+    "link_saml": false,
+    "edit_segments": true,
+    "version": 1384,
+    "name": "mconover",
+    "active": true,
+    "phone": "6466683388",
+    "username": "mconover",
+    "edit_margins_and_performance": true,
+    "link_ldap": true,
+    "last_login_on": "2016-12-01T19:21:40+0000",
+    "title": "Software Architect, Platform Integrations",
+    "type": "INTERNAL",
+    "role": "ADMIN",
+    "first_name": "Matthew"
+  },
+  "meta": {
+    "etag": "d4946bdd213e4e2d606d35ee634bad3749a10f47",
+    "called_on": "2016-12-01T20:13:04+0000",
+    "status": "ok"
+  }
+}

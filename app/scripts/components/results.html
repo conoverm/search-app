@@ -1,0 +1,16 @@
+<copy sent-id="$ctrl.id"></copy>
+
+<div class="container-fluid results-container">
+  <div class="row">
+    <div class="panel panel-default">
+      <div class="panel-body" ng-include="$ctrl.resultsTable"></div>
+        <spinner
+        class="angular-spinner results-table-spinner"
+        group="loaders"
+        name="html5spinner"
+        on-loaded="$ctrl.spinnerLoaded(spinnerApi);">
+          <div class="cp-spinner cp-hue"></div>
+        </spinner>
+    </div>
+  </div>
+</div>

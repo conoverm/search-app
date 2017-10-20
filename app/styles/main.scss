@@ -1,0 +1,48 @@
+.results-container {
+  position: relative;
+}
+
+.results-table {
+  word-wrap: break-word;
+  table-layout: fixed;
+
+  .copy-icon {
+    white-space: nowrap;
+    width: 2%;
+  }
+
+}
+
+.targetDimension-parentId {
+  margin: 0 0 15px 0;
+}
+
+.raw-json-option > tbody > tr:nth-child(even) > td {
+    border-top: 0;
+}
+
+.angular-spinner {
+  display: block;
+  position:absolute;
+
+  &.input-spinner {
+    right:20px;
+    top:5px;
+  };
+
+  &.results-table-spinner {
+    left: 50%;
+    bottom: 10px;
+  }
+}
+
+.fixedCopyTags {
+  margin: 5px;
+  position: fixed;
+  top: 1rem;
+  width: inherit;
+  max-width:450px;
+  min-width:200px;
+  background-color: rgba(255,255,255,.65);
+  z-index:1;
+}

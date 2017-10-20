@@ -1,0 +1,50 @@
+<div class="container-fluid">
+  <div class="row">
+    <form name="$ctrl.searchInput" ng-submit="$ctrl.parseSearch(search)" class="form-horizontal col-xs-12" novalidate>
+      <div class="form-group">
+        <div class="col-sm-3">
+          <select
+            class="form-control" name="flatSelect" id="flatSelect"
+            ng-options="entity as entity.displayName for entity in $ctrl.entityList"
+            ng-model="$ctrl.entity"
+            ng-change="$ctrl.changeEntity()"></select>
+        </div>
+        <div class="col-sm-7">
+          <input
+          name="querySearch"
+          placeholder="{{$ctrl.entity.placeholder}}"
+          class="form-control"
+          ng-model="search"
+          ng-model-options="{ debounce: 401 }"
+          type="text"
+          ng-required="$ctrl.entity.minlength || false"
+          ng-minlength="$ctrl.entity.minlength || 0"
+          ng-change="$ctrl.parseSearch(search)"
+          />
+          <div ng-show="$ctrl.requestError" class="alert alert-warning" role="alert">
+            {{$ctrl.requestError.message}}
+          </div>
+          <spinner
+          class="angular-spinner input-spinner"
+          group="loaders"
+          name="input-spinner"
+          on-loaded="$ctrl.spinnerLoaded(spinnerApi);">
+            <div class="cp-spinner cp-hue"></div>
+          </spinner>
+        </div>
+        <div class="col-sm-1">
+          <button type="button" class="btn btn-primary btn-md" ng-click="$ctrl.parseSearch(search)">Query</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div ng-include="$ctrl.extraQueryTemplate"></div>
+
+  <results selected-entity="$ctrl.entity" results-count="$ctrl.count"
+    next-page="$ctrl.nextPageResult"
+    data="$ctrl.queryResults"
+    clear-copy="$ctrl.clear">
+  </results>
+
+</div>

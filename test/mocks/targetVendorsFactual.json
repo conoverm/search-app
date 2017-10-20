@@ -1,0 +1,34 @@
+{
+   "data" : [
+      {
+         "vendor_id" : 1048,
+         "version" : 0,
+         "name" : "FactualVideo",
+         "updated_on" : "2016-06-07T15:03:36+0000",
+         "targeting_vendor_type_id" : 2,
+         "created_on" : "2016-06-07T15:03:36+0000",
+         "entity_type" : "targeting_vendor",
+         "id" : 5,
+         "namespace_code" : "fv"
+      },
+      {
+         "vendor_id" : 1027,
+         "version" : 0,
+         "name" : "Factual",
+         "updated_on" : "2016-05-09T17:51:52+0000",
+         "targeting_vendor_type_id" : 2,
+         "created_on" : "2016-05-09T17:51:52+0000",
+         "entity_type" : "targeting_vendor",
+         "id" : 4,
+         "namespace_code" : "fa"
+      }
+   ],
+   "meta" : {
+      "etag" : "7d1c199a17547f08186906f641c20324067eef30",
+      "count" : 2,
+      "called_on" : "2017-04-25T03:47:55+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 2
+   }
+}

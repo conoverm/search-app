@@ -1,0 +1,1159 @@
+{
+   "data" : [
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.595
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 16,
+         "updated_on" : "2017-03-28T12:53:55+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.7
+            }
+         ],
+         "created_on" : "2017-03-27T13:37:25+0000",
+         "parent_audience_segment_id" : 1750453,
+         "entity_type" : "audience_segment",
+         "full_path" : "Eyeota - Branded Data - Europe - TR ReklamStore - Intent - Travel - Flights - Destination - North America - US - Las Vegas",
+         "type" : "normal",
+         "id" : 1746955,
+         "code" : "22723"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "version" : 0,
+         "name" : "Nevada (incl. Las Vegas)",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2016-10-26T13:36:29+0000",
+         "parent_audience_segment_id" : 1669588,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Audiences by Oracle - -Global - Travel - In-Market - Departures - North America - United States - Nevada (incl. Las Vegas)",
+         "type" : "normal",
+         "id" : 1669595,
+         "uniques" : 255040,
+         "code" : "679682"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "version" : 0,
+         "name" : "Nevada (incl. Las Vegas)",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2016-10-26T13:36:29+0000",
+         "parent_audience_segment_id" : 1669715,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Audiences by Oracle - -Global - Travel - In-Market - Destinations - North America - United States - Nevada (incl. Las Vegas)",
+         "type" : "normal",
+         "id" : 1669731,
+         "uniques" : 869120,
+         "code" : "687148"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.75
+            }
+         ],
+         "version" : 0,
+         "name" : "in Las Vegas Area",
+         "child_count" : 0,
+         "audience_vendor_id" : 2,
+         "updated_on" : "2017-03-13T22:40:02+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.75
+            }
+         ],
+         "created_on" : "2016-10-01T09:48:24+0000",
+         "parent_audience_segment_id" : 1710471,
+         "entity_type" : "audience_segment",
+         "full_path" : "eXelate - 3rd Party Data - MasterCard - MasterCard - Top Tier Spender - Casinos and Gaming Resorts - in Las Vegas Area",
+         "type" : "normal",
+         "id" : 1648553,
+         "uniques" : 154012250,
+         "code" : "16498"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.75
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 2,
+         "updated_on" : "2017-03-13T22:40:02+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.75
+            }
+         ],
+         "created_on" : "2016-10-01T09:48:24+0000",
+         "parent_audience_segment_id" : 1708710,
+         "entity_type" : "audience_segment",
+         "full_path" : "eXelate - 3rd Party Data - MasterCard - MasterCard - In Market - Holiday Traveler - Las Vegas",
+         "type" : "normal",
+         "id" : 1648457,
+         "uniques" : 151703459,
+         "code" : "13661"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.0625
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas Tourists",
+         "child_count" : 0,
+         "audience_vendor_id" : 159,
+         "updated_on" : "2017-03-21T17:53:31+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.25
+            }
+         ],
+         "created_on" : "2016-09-07T13:05:11+0000",
+         "parent_audience_segment_id" : 1629093,
+         "entity_type" : "audience_segment",
+         "full_path" : "LiveRamp IdentityLink Data Store - United States - NinthDecimal - Lifestyle - Travel - Las Vegas Tourists",
+         "type" : "normal",
+         "id" : 1631556,
+         "uniques" : 17610000,
+         "code" : "1000871649"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.9185
+            }
+         ],
+         "version" : 0,
+         "name" : "Gambled in Las Vegas Casino Last 12M",
+         "child_count" : 0,
+         "audience_vendor_id" : 3,
+         "updated_on" : "2017-03-28T19:11:33+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2016-07-18T21:59:58+0000",
+         "parent_audience_segment_id" : 1694342,
+         "entity_type" : "audience_segment",
+         "full_path" : "AdAdvisor Audiences Powered by Neustar - AdAdvisor Consumer Audiences - Travel - Casino Gambling - Gambled in Las Vegas Casino Last 12M",
+         "type" : "normal",
+         "id" : 1574440,
+         "uniques" : 1310697,
+         "code" : "94336"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.9025
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "created_on" : "2016-07-04T11:20:08+0000",
+         "parent_audience_segment_id" : 1567823,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Branded Data - AddThis - In-Market - Travel - Destinations - North America - United States - Nevada - Las Vegas",
+         "type" : "normal",
+         "id" : 1567824,
+         "uniques" : 85440,
+         "code" : "573429"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "version" : 0,
+         "name" : "Bellagio Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2016-07-04T11:20:08+0000",
+         "parent_audience_segment_id" : 58059,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Branded Data - Affinity Answers - Brands - Hotels & Resorts - Bellagio Las Vegas",
+         "type" : "normal",
+         "id" : 1567371,
+         "uniques" : 1592960,
+         "code" : "569491"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "version" : 0,
+         "name" : "Monte Carlo Las Vegas Hotel & Casino",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2016-07-04T11:20:08+0000",
+         "parent_audience_segment_id" : 58059,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Branded Data - Affinity Answers - Brands - Hotels & Resorts - Monte Carlo Las Vegas Hotel & Casino",
+         "type" : "normal",
+         "id" : 1567369,
+         "uniques" : 2633280,
+         "code" : "569489"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.0625
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas Tourists- Precise",
+         "child_count" : 0,
+         "audience_vendor_id" : 115,
+         "updated_on" : "2017-03-15T17:51:49+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.25
+            }
+         ],
+         "created_on" : "2016-06-02T19:19:57+0000",
+         "parent_audience_segment_id" : 1625957,
+         "entity_type" : "audience_segment",
+         "full_path" : "NinthDecimal - Lifestyle- Precise - Travel- Precise - Las Vegas Tourists- Precise",
+         "type" : "normal",
+         "id" : 1542461,
+         "uniques" : 9776005,
+         "code" : "1601421195"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.9025
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 10,
+         "updated_on" : "2016-07-01T13:23:49+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "created_on" : "2016-05-06T18:18:45+0000",
+         "parent_audience_segment_id" : 1525767,
+         "entity_type" : "audience_segment",
+         "full_path" : "AddThis - US In-Market - Travel - Destinations - United States - Nevada - Las Vegas",
+         "type" : "normal",
+         "id" : 1525768,
+         "uniques" : 23376,
+         "code" : "1900245"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.275
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas Casinos",
+         "child_count" : 0,
+         "audience_vendor_id" : 159,
+         "updated_on" : "2017-03-21T17:53:31+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.5
+            }
+         ],
+         "created_on" : "2016-04-27T19:24:00+0000",
+         "parent_audience_segment_id" : 1516886,
+         "entity_type" : "audience_segment",
+         "full_path" : "LiveRamp IdentityLink Data Store - United States - Cuebiq - Mobile Audience - Entertainment - Casinos and Betting Shops Visitors - Las Vegas Casinos",
+         "type" : "normal",
+         "id" : 1516892,
+         "uniques" : 340000,
+         "code" : "1000318536"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.4875
+            }
+         ],
+         "version" : 0,
+         "name" : "Holiday Traveler - Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 93,
+         "updated_on" : "2017-03-28T19:03:14+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.75
+            }
+         ],
+         "created_on" : "2015-10-05T20:45:41+0000",
+         "parent_audience_segment_id" : 1692268,
+         "entity_type" : "audience_segment",
+         "full_path" : "MasterCard US - Seasonal - Holiday Travel - Holiday Traveler - Las Vegas",
+         "type" : "normal",
+         "id" : 1460010,
+         "uniques" : 1308813,
+         "code" : "1142206678"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.4875
+            }
+         ],
+         "version" : 0,
+         "name" : "Casinos & Gaming Resorts - Top Tier Spender in Las Vegas Area",
+         "child_count" : 0,
+         "audience_vendor_id" : 93,
+         "updated_on" : "2017-03-28T19:03:14+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.75
+            }
+         ],
+         "created_on" : "2015-10-05T20:45:41+0000",
+         "parent_audience_segment_id" : 1692298,
+         "entity_type" : "audience_segment",
+         "full_path" : "MasterCard US - Top Tier Spender - Hotel - Casinos & Gaming Resorts - Top Tier Spender in Las Vegas Area",
+         "type" : "normal",
+         "id" : 1459987,
+         "uniques" : 2874985,
+         "code" : "1281624388"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.9025
+            }
+         ],
+         "version" : 0,
+         "name" : "Vegas Terms",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "created_on" : "2015-09-11T22:54:43+0000",
+         "parent_audience_segment_id" : 1447259,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Branded Data - AddThis - Premium - Travel - Destinations - Las Vegas - Vegas Terms",
+         "type" : "normal",
+         "id" : 1447263,
+         "uniques" : 42800,
+         "code" : "146416"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.7125
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.75
+            }
+         ],
+         "created_on" : "2015-09-11T22:54:43+0000",
+         "parent_audience_segment_id" : 66195,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Interest - Travel - Destination Locations - United States - Las Vegas",
+         "type" : "normal",
+         "id" : 1454265,
+         "uniques" : 624400,
+         "code" : "441558"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.9025
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 5,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "created_on" : "2015-09-11T22:54:43+0000",
+         "parent_audience_segment_id" : 1447249,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Branded Data - AddThis - Premium - Travel - Destinations - Las Vegas",
+         "type" : "normal",
+         "id" : 1447259,
+         "uniques" : 624400,
+         "code" : "146414"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.9025
+            }
+         ],
+         "version" : 0,
+         "name" : "Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "created_on" : "2015-09-11T22:54:43+0000",
+         "parent_audience_segment_id" : 1447259,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Branded Data - AddThis - Premium - Travel - Destinations - Las Vegas - Vegas",
+         "type" : "normal",
+         "id" : 1447262,
+         "uniques" : 45400,
+         "code" : "270896"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "version" : 0,
+         "name" : "MGM Grand Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2015-03-19T00:26:27+0000",
+         "parent_audience_segment_id" : 58059,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Branded Data - Affinity Answers - Brands - Hotels & Resorts - MGM Grand Las Vegas",
+         "type" : "normal",
+         "id" : 1272535,
+         "uniques" : 2492400,
+         "code" : "272370"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.255
+            }
+         ],
+         "version" : 0,
+         "name" : "Travel to Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 87,
+         "updated_on" : "2017-03-14T19:49:47+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.3
+            }
+         ],
+         "created_on" : "2015-01-12T17:46:03+0000",
+         "parent_audience_segment_id" : 801587,
+         "entity_type" : "audience_segment",
+         "full_path" : "Navegg - Product - Travel & tourism - Travel to North America - Travel to USA - Travel to Las Vegas",
+         "type" : "normal",
+         "id" : 801505,
+         "uniques" : 14830,
+         "code" : "729"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 14,
+         "updated_on" : "2016-08-05T12:36:44+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2014-05-29T03:27:46+0000",
+         "parent_audience_segment_id" : 1564086,
+         "entity_type" : "audience_segment",
+         "full_path" : "Datalogix - DLX Demographics - DMA - Las Vegas",
+         "type" : "normal",
+         "id" : 109300,
+         "uniques" : 396866,
+         "code" : "436534268"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.425
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 8,
+         "updated_on" : "2016-11-09T11:17:35+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.5
+            }
+         ],
+         "created_on" : "2014-03-05T20:45:37+0000",
+         "parent_audience_segment_id" : 1503514,
+         "entity_type" : "audience_segment",
+         "full_path" : "Acxiom - ACXM Geography - DMA - Las Vegas",
+         "type" : "normal",
+         "id" : 90573,
+         "uniques" : 671675,
+         "code" : "18739"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "version" : 0,
+         "name" : "Likely Las Vegas Gamblers",
+         "child_count" : 0,
+         "audience_vendor_id" : 2,
+         "updated_on" : "2017-03-13T22:40:02+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2014-02-25T15:36:49+0000",
+         "parent_audience_segment_id" : 1709860,
+         "entity_type" : "audience_segment",
+         "full_path" : "eXelate - 3rd Party Data - IXI Open Market - Travel Hospitality - Likely Las Vegas Gamblers",
+         "type" : "normal",
+         "id" : 85892,
+         "uniques" : 38937932,
+         "code" : "6537"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.6175
+            }
+         ],
+         "version" : 0,
+         "name" : "Vegas Terms",
+         "child_count" : 0,
+         "audience_vendor_id" : 10,
+         "updated_on" : "2016-07-01T13:23:49+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.65
+            }
+         ],
+         "created_on" : "2014-02-21T18:48:47+0000",
+         "parent_audience_segment_id" : 84327,
+         "entity_type" : "audience_segment",
+         "full_path" : "AddThis - US Premium - Travel - Destinations - Las Vegas - Vegas Terms",
+         "type" : "normal",
+         "id" : 84323,
+         "uniques" : 1361622,
+         "code" : "81796"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.6175
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 5,
+         "audience_vendor_id" : 10,
+         "updated_on" : "2016-07-01T13:23:49+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.65
+            }
+         ],
+         "created_on" : "2014-02-21T18:48:47+0000",
+         "parent_audience_segment_id" : 84337,
+         "entity_type" : "audience_segment",
+         "full_path" : "AddThis - US Premium - Travel - Destinations - Las Vegas",
+         "type" : "normal",
+         "id" : 84327,
+         "uniques" : 6316159,
+         "code" : "81837"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.6175
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 10,
+         "updated_on" : "2016-07-01T13:23:49+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.65
+            }
+         ],
+         "created_on" : "2014-02-21T18:48:47+0000",
+         "parent_audience_segment_id" : 83680,
+         "entity_type" : "audience_segment",
+         "full_path" : "AddThis - US Mobile - Travel - Destinations - Las Vegas",
+         "type" : "normal",
+         "id" : 83670,
+         "uniques" : 2005180,
+         "code" : "83657"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.6175
+            }
+         ],
+         "version" : 0,
+         "name" : "Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 10,
+         "updated_on" : "2016-07-01T13:23:49+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.65
+            }
+         ],
+         "created_on" : "2014-02-21T18:48:47+0000",
+         "parent_audience_segment_id" : 84327,
+         "entity_type" : "audience_segment",
+         "full_path" : "AddThis - US Premium - Travel - Destinations - Las Vegas - Vegas",
+         "type" : "normal",
+         "id" : 84324,
+         "uniques" : 157694,
+         "code" : "81354"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.5
+            }
+         ],
+         "version" : 0,
+         "name" : "Gamble in Las Vegas (MRI)",
+         "child_count" : 0,
+         "audience_vendor_id" : 9,
+         "updated_on" : "2017-04-02T18:34:45+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1.5
+            }
+         ],
+         "created_on" : "2014-02-04T16:44:42+0000",
+         "parent_audience_segment_id" : 1710688,
+         "entity_type" : "audience_segment",
+         "full_path" : "Nielsen - Nielsen Travel - Gamble in Las Vegas (MRI)",
+         "type" : "normal",
+         "id" : 76418,
+         "uniques" : 173871018,
+         "code" : "13878"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 2,
+         "updated_on" : "2017-03-13T22:40:02+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2014-01-28T17:32:24+0000",
+         "parent_audience_segment_id" : 74525,
+         "entity_type" : "audience_segment",
+         "full_path" : "eXelate - eXelate - Intent - Propensity - Travel - Likely Gamblers - Las Vegas",
+         "type" : "normal",
+         "id" : 74547,
+         "uniques" : 133953626,
+         "code" : "6627"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas-LAS",
+         "child_count" : 0,
+         "audience_vendor_id" : 2,
+         "updated_on" : "2017-03-13T22:40:02+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2014-01-28T17:32:24+0000",
+         "parent_audience_segment_id" : 1708207,
+         "entity_type" : "audience_segment",
+         "full_path" : "eXelate - eXelate - Intent - Travel - Departure - North America - US - Departure - Nevada - Las Vegas-LAS",
+         "type" : "normal",
+         "id" : 74800,
+         "uniques" : 242629,
+         "code" : "9106"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas (All Airports)",
+         "child_count" : 1,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 12424,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - In-Market - Travel - Air Travel - Destination Locations - United States - Nevada - Las Vegas (All Airports)",
+         "type" : "normal",
+         "id" : 12425,
+         "uniques" : 488000,
+         "code" : "49654"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.475
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas-Paradise",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.5
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 3810,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Geographic - Self-Declared - United States - Nevada - Las Vegas-Paradise",
+         "type" : "normal",
+         "id" : 3815,
+         "uniques" : 1579600,
+         "code" : "1619"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas - McCarren Intl (LAS)",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 11393,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - In-Market - Travel - Air Travel - Departure Locations - United States - Nevada - Las Vegas - McCarren Intl (LAS)",
+         "type" : "normal",
+         "id" : 11394,
+         "uniques" : 180000,
+         "code" : "3858"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 12698,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - In-Market - Travel - Car Rentals - Locations - Nevada - Las Vegas",
+         "type" : "normal",
+         "id" : 12699,
+         "uniques" : 58600,
+         "code" : "6687"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.475
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.5
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 3829,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Geographic - Self-Declared - United States - New Mexico - Las Vegas",
+         "type" : "normal",
+         "id" : 3841,
+         "uniques" : 7800,
+         "code" : "1618"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 14631,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - In-Market - Travel - Vacation Packages - Locations - United States - Nevada - Las Vegas",
+         "type" : "normal",
+         "id" : 14632,
+         "uniques" : 107200,
+         "code" : "6412"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.95
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 13795,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - In-Market - Travel - Hotels & Lodging - Locations - United States - Nevada - Las Vegas",
+         "type" : "normal",
+         "id" : 13799,
+         "uniques" : 272400,
+         "code" : "4629"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas-LAS",
+         "child_count" : 0,
+         "audience_vendor_id" : 2,
+         "updated_on" : "2017-03-13T22:40:02+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 1
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 16572,
+         "entity_type" : "audience_segment",
+         "full_path" : "eXelate - eXelate - Intent - Travel - Destination - North America - US - Nevada - Las Vegas-LAS",
+         "type" : "normal",
+         "id" : 16573,
+         "uniques" : 128543165,
+         "code" : "63"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.475
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.5
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 2772,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Geographic - IP based - United States - New Mexico - Las Vegas",
+         "type" : "normal",
+         "id" : 2784,
+         "uniques" : 1400,
+         "code" : "33361"
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.475
+            }
+         ],
+         "version" : 0,
+         "name" : "Las Vegas-Paradise",
+         "child_count" : 0,
+         "audience_vendor_id" : 1,
+         "updated_on" : "2017-03-01T16:01:43+0000",
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.5
+            }
+         ],
+         "created_on" : "2011-11-29T03:15:05+0000",
+         "parent_audience_segment_id" : 2752,
+         "entity_type" : "audience_segment",
+         "full_path" : "BlueKai - Geographic - IP based - United States - Nevada - Las Vegas-Paradise",
+         "type" : "normal",
+         "id" : 2757,
+         "uniques" : 4549000,
+         "code" : "33336"
+      }
+   ],
+   "meta" : {
+      "etag" : "28ee12502aa2ef33d9286a9f0527149883993791",
+      "count" : 41,
+      "called_on" : "2017-04-04T18:48:07+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 41
+   }
+}

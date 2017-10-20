@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MediaMath | ID Lookup</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/ng-tags-input/ng-tags-input.css" />
+    <link rel="stylesheet" href="bower_components/ng-tags-input/ng-tags-input.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/csspin/csspin.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/t1.css">
+    <!-- endbuild -->
+
+  </head>
+  <body ng-app="ts-id-lookup">
+    <ui-view></ui-view>
+
+    <!-- build:js(.) scripts/b.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/ng-tags-input/ng-tags-input.js"></script>
+    <script src="bower_components/clipboard/dist/clipboard.js"></script>
+    <script src="bower_components/ngclipboard/dist/ngclipboard.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-spinners/dist/angular-spinners.min.js"></script>
+    <script src="bower_components/tagged-infinite-scroll/taggedInfiniteScroll.js"></script>
+    <script src="bower_components/waypoints/lib/noframework.waypoints.js"></script>
+    <script src="bower_components/angular-waypoints/dist/angular-waypoints.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/xlsx.js -->
+    <script src="../node_modules/xlsx/dist/xlsx.core.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/afs.js -->
+    <script src="../node_modules/angular-file-saver/dist/angular-file-saver.bundle.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/app.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/templates/templates.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/resources/resourcesConfig.js"></script>
+    <script src="scripts/components/copy.js"></script>
+    <script src="scripts/components/entitySearch.js"></script>
+    <script src="scripts/components/results.js"></script>
+    <script src="scripts/components/titleComponent.js"></script>
+    <script src="scripts/controllers/LoginController.js"></script>
+    <script src="scripts/services/authInterceptor.js"></script>
+    <script src="scripts/services/userService.js"></script>
+    <script src="scripts/resources/$organizations.js"></script>
+    <script src="scripts/resources/$campaigns.js"></script>
+    <script src="scripts/resources/$strategies.js"></script>
+    <script src="scripts/resources/$pixels.js"></script>
+    <script src="scripts/resources/$agencies.js"></script>
+    <script src="scripts/resources/$login.js"></script>
+    <script src="scripts/resources/$session.js"></script>
+    <script src="scripts/resources/$users.js"></script>
+    <script src="scripts/resources/$supplySources.js"></script>
+    <script src="scripts/resources/$generic.js"></script>
+    <script src="scripts/resources/$advertisers.js"></script>
+    <script src="scripts/resources/$deals.js"></script>
+    <script src="scripts/resources/$adServer.js"></script>
+    <script src="scripts/resources/$videoCreatives.js"></script>
+    <script src="scripts/resources/$displayCreatives.js"></script>
+    <script src="scripts/resources/$vendors.js"></script>
+    <script src="scripts/resources/$audienceSegments.js"></script>
+    <script src="scripts/resources/$audienceSegmentTaxonomy.js"></script>
+    <script src="scripts/resources/$audienceSegmentAssignedToStrategy.js"></script>
+    <script src="scripts/resources/$audienceSegmentFullPath.js"></script>
+    <script src="scripts/resources/$siteLists.js"></script>
+    <script src="scripts/resources/$targetVendors.js"></script>
+    <script src="scripts/resources/$targetObjectives.js"></script>
+    <script src="scripts/resources/$targetSegments.js"></script>
+    <script src="scripts/resources/$targetSegmentChildren.js"></script>
+    <script src="scripts/resources/$targetSegmentAssignedToStrategy.js"></script>
+    <script src="scripts/resources/$targetFullPath.js"></script>
+    <script src="scripts/resources/$targetDimensions.js"></script>
+    <script src="scripts/resources/$atomicCreatives.js"></script>
+    <script src="scripts/factories/entityModels.js"></script>
+    <script src="scripts/services/encodeSubstringQueryTerm.js"></script>
+    <script src="scripts/services/encodeDealQueryTerm.js"></script>
+    <script src="scripts/components/t1Navbar.js"></script>
+    <script src="scripts/components/CreativeCheckTag.js"></script>
+    <!-- endbuild -->
+    
+    <script>
+    !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){(A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)}(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-98133953-1', 'auto', 'IDLookup');
+    ga('send', 'Pageview');
+    </script>
+  </body>
+</html>
+ 

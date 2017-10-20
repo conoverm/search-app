@@ -1,0 +1,29 @@
+<table
+  class="table table-hover results-table"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-1">Name</th>
+      <th class="col-xs-1">Id</th>
+      <th class="col-xs-1">Campaign Id</th>
+      <th class="col-xs-1">Price</th>
+      <th class="col-xs-1">Use MM Contract</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+    <tr ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')"
+    ng-repeat="data in $ctrl.data  | filter:data.name track by $index">
+    <td class="copy-icon"><span class="glyphicon glyphicon-file" aria-hidden="true" id="style{{data.id}}"></span></td>
+    <td>{{data.name}}</td>
+    <td>{{data.id}}</td>
+    <td>{{data.campaign_id}}</td>
+    <td>{{data.rate_card_type}} {{data.price}}</td>
+    <td>{{data.use_mm_contract}}</td>
+  </tr>
+  </tbody>
+</table>

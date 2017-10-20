@@ -1,0 +1,30 @@
+<table
+  class="table table-hover results-table"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-2">Name</th>
+      <th class="col-xs-2">Id</th>
+      <th class="text-capitalize col-xs-2">{{$ctrl.selectedEntity.parentEntityType}}</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+    <tr ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')"
+    ng-repeat="data in $ctrl.data | filter:data.name">
+    <td class="copy-icon">
+      <span class="glyphicon glyphicon-file" aria-hidden="true" id="style{{data.id}}"></span>
+    </td>
+    <td>{{data.name}}</td>
+    <td>{{data.id}}</td>
+    <td>
+      <div>{{data[$ctrl.selectedEntity.parentEntityType].name}}</div>
+      <div>{{data[$ctrl.selectedEntity.parentEntityType].id}}</div>
+    </td>
+  </tr>
+  </tbody>
+</table>

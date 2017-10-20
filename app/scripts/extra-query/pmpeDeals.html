@@ -1,0 +1,109 @@
+<div class="row">
+  <div class="col-sm-offset-3 col-sm-2">
+    <div class="radio">
+      <label for="queryAttributeName">
+        <input
+        type="radio"
+        id="queryAttributeName"
+        value="name"
+        ng-model="$ctrl.entity.queryFilter.AttributeToQueryOn"> Name
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryAttributeDealIdentifier">
+        <input
+        type="radio"
+        id="queryAttributeDealIdentifier"
+        value="deal_identifier"
+        ng-model="$ctrl.entity.queryFilter.AttributeToQueryOn"> Deal Identifier
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryAttributeSingleDeal">
+        <input
+        type="radio"
+        id="queryAttributeSingleDeal"
+        value="deal_id"
+        ng-model="$ctrl.entity.queryFilter.AttributeToQueryOn"> Single Deal Id
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryAttributeSupplySourceId">
+        <input
+        type="radio"
+        id="queryAttributeSupplySourceId"
+        value="supply_source_id"
+        ng-model="$ctrl.entity.queryFilter.AttributeToQueryOn"> Supply Source Id
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryAttributeStrategyId">
+        <input
+        type="radio"
+        id="queryAttributeStrategyId"
+        value="strategy_id"
+        ng-model="$ctrl.entity.queryFilter.AttributeToQueryOn"> Strategy Id
+      </label>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="form-group">
+      Filter by Owner
+    </div>
+    <div class="form-group">
+      <label for="deals.owner.entityFilter" class="control-label">
+        Owner Entity:
+      </label>
+
+      <div>
+        <select name="deals.owner.entityFilter"
+          id="deals.owner.entityFilter"
+          class="form-control"
+          ng-model="$ctrl.entity.queryFilter.owner.entityFilter"
+          ng-options="entity for entity in $ctrl.entity.queryFilter.owner.entityType">
+          <option value=""></option>
+        </select>
+      </div>
+      <label for="deals.owner.entityFilter" class="control-label">
+        Owner ID:
+      </label>
+      <div class="">
+        <input name="deals.owner.entityId"
+          id="deals.owner.entityId"
+          class="form-control"
+          ng-model="$ctrl.entity.queryFilter.owner.entityId"
+          type="number">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="form-group">
+      Filter by Permissions
+    </div>
+    <div class="form-group">
+      <label for="deals.permissions.entityFilter" class="control-label">
+        Permissions Entity:
+      </label>
+
+      <div>
+        <select name="deals.permissions.entityFilter"
+          id="deals.permissions.entityFilter"
+          class="form-control"
+          ng-model="$ctrl.entity.queryFilter.permissions.entityFilter"
+          ng-options="entity for entity in $ctrl.entity.queryFilter.permissions.entityType">
+          <option value=""></option>
+        </select>
+      </div>
+      <label for="deals.permissions.entityFilter" class="control-label">
+        Permissions ID:
+      </label>
+      <div class="">
+        <input name="deals.permissions.entityId"
+          id="deals.permissions.entityId"
+          class="form-control"
+          ng-model="$ctrl.entity.queryFilter.permissions.entityId"
+          type="number">
+      </div>
+    </div>
+  </div>
+</div>

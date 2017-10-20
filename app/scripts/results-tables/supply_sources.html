@@ -1,0 +1,48 @@
+<table
+  class="table table-hover results-table"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+
+      <th class="copy-icon"></th>
+      <th class="col-xs-1">Name</th>
+      <th class="col-xs-1">Id</th>
+      <th class="col-xs-1">RTB Type</th>
+      <th class="col-xs-2">Attribution Group</th>
+      <th class="col-xs-1 ">Bidder Exchange Id</th>
+      <th class="col-xs-2">Attributes</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+    <tr ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')"
+    ng-repeat="data in $ctrl.data | filter:data.name">
+    <td class="copy-icon">
+      <span class="glyphicon glyphicon-file" aria-hidden="true" id="style{{data.id}}"></span>
+   </td>
+   <td>{{data.name}}</td>
+   <td>{{data.id}}</td>
+   <td>{{data.rtb_type}}</td>
+   <td>{{data.attribution_group}}</td>
+   <td>{{data.bidder_exchange_identifier}}</td>
+   <td>
+      <div>Code: {{data.code}}</div>
+      <div ng-if="!!data.pmp_enabled">PMP Enabled</div>
+      <div ng-if="!!data.mm_safe">MM Safe</div>
+      <div ng-if="!!data.has_mobile_display">Has Mobile Display</div>
+      <div ng-if="!!data.seat_enabled">Seat Enabled</div>
+      <div ng-if="!!data.has_video">Has Video</div>
+      <div ng-if="!!data.has_desktop_video">Has Desktop Video</div>
+      <div ng-if="!!data.has_mobile_video">Has Mobile Video</div>
+      <div ng-if="!!data.use_pool">Use Pool</div>
+      <div ng-if="!!data.distribute">Distribute</div>
+      <div ng-if="!!data.rtb_enabled">RTB Enabled</div>
+      <div ng-if="!!data.has_display">Has Display</div>
+      <div ng-if="!!data.has_connected_tv">Connected TV</div>
+   </td>
+  </tr>
+  </tbody>
+</table>

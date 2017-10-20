@@ -1,0 +1,38 @@
+<table
+  class="table table-hover results-table"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-1">Name</th>
+      <th class="col-xs-1">Id</th>
+      <th class="col-xs-1">Vendor Type</th>
+      <th class="col-xs-2">Attributes</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+     <tr ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')"
+        ng-repeat="data in $ctrl.data | filter:data.name">
+        <td class="copy-icon">
+           <span class="glyphicon glyphicon-file" aria-hidden="true"  id="style{{data.id}}"></span>
+        </td>
+        <td>{{data.name}}</td>
+        <td>{{data.id}}</td>
+        <td>{{data.vendor_type}}
+        <td>
+          <div ng-if="!!data.is_eligible">Eligible</div>
+          <div ng-if="!!data.adx_declaration_required">ADX Declaration Required</div>
+          <div ng-if="!!data.adx_approved">ADX Approved</div>
+          <div ng-if="!!data.adx_ssl_approved">ADX SSL Approved</div>
+          <div ng-if="!!data.adx_video_approved">ADX Video Approved</div>
+          <div ng-if="!!data.adx_video_ssl_approved">ADX SSL Video Approved</div>
+          <div ng-if="!!data.mm_contract_available">MM Contract Available</div>
+          <div ng-if="!!data.detect_domains">Detect Domains: {{data.detect_domains}}</div>
+        </td>
+     </tr>
+  </tbody>
+</table>

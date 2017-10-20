@@ -1,0 +1,89 @@
+  {
+  "data": [
+    {
+      "value": 60006,
+      "name": "Aland Islands",
+      "child_count": 1,
+      "target_dimension_id": 7,
+      "is_targetable": true,
+      "dimension_code": "REGN",
+      "entity_type": "target_value_count",
+      "id": 26,
+      "code": "ax"
+    },
+    {
+      "value": 60035,
+      "name": "Brunei Darussalam",
+      "child_count": 6,
+      "target_dimension_id": 7,
+      "is_targetable": true,
+      "dimension_code": "REGN",
+      "entity_type": "target_value_count",
+      "id": 55,
+      "code": "bn"
+    },
+    {
+      "value": 60092,
+      "name": "Guatemala",
+      "child_count": 23,
+      "target_dimension_id": 7,
+      "is_targetable": true,
+      "dimension_code": "REGN",
+      "entity_type": "target_value_count",
+      "id": 112,
+      "code": "gt"
+    },
+    {
+      "value": 60155,
+      "name": "Malawi",
+      "child_count": 4,
+      "target_dimension_id": 7,
+      "is_targetable": true,
+      "dimension_code": "REGN",
+      "entity_type": "target_value_count",
+      "id": 175,
+      "code": "mw"
+    },
+    {
+      "value": 60156,
+      "name": "Malaysia",
+      "child_count": 17,
+      "target_dimension_id": 7,
+      "is_targetable": true,
+      "dimension_code": "REGN",
+      "entity_type": "target_value_count",
+      "id": 176,
+      "code": "my"
+    },
+    {
+      "value": 60169,
+      "name": "New Zealand",
+      "child_count": 18,
+      "target_dimension_id": 7,
+      "is_targetable": true,
+      "dimension_code": "REGN",
+      "entity_type": "target_value_count",
+      "id": 189,
+      "code": "nz"
+    },
+    {
+      "value": 60176,
+      "name": "Palau",
+      "child_count": 17,
+      "target_dimension_id": 7,
+      "is_targetable": true,
+      "dimension_code": "REGN",
+      "entity_type": "target_value_count",
+      "id": 196,
+      "code": "pw"
+    }
+  ],
+  "meta": {
+    "etag": "ac70db59211e8e341c3bf63fa0100be80ebcfa1f",
+    "count": 7,
+    "called_on": "2017-05-01T16:50:36+0000",
+    "status": "ok",
+    "offset": 0,
+    "total_count": 7
+  }
+}

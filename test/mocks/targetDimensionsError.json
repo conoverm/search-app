@@ -1,0 +1,11 @@
+{
+  "errors": [
+    {
+      "message": "'dimension' is a required parameter"
+    }
+  ],
+  "meta": {
+    "called_on": "2017-05-01T16:55:46+0000",
+    "status": "error"
+  }
+}

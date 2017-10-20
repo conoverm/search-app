@@ -1,0 +1,27 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="/images/mm_site_logo.svg" class="navbar-brand" />
+    </div>
+  </div> 
+</nav>
+
+<form class="login-form-block form-signin center-block" ng-submit="login(username, password)" autocomplete="off">
+  <div>
+    <div class="form-group">
+      <input type="text" class="form-control" ng-model="username" placeholder="T1 Username" required />
+    </div>
+
+    <div class="form-group">
+      <input type="password" class="form-control" ng-model="password" placeholder="T1 Password" required />
+    </div>
+
+    <div class="form-group">
+      <input class="btn btn-default" type="submit" id="login-button" value="Log In">
+    </div>
+
+    <div class="" ng-show="loginFail" id="login-alert">
+      Incorrect username or password. Please try again.
+    </div>
+  </div>
+</form>

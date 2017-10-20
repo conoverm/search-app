@@ -1,0 +1,169 @@
+<div class="row">
+  <div class="col-xs-3">
+    <div class="radio">
+      <label for="queryFilterBSER">
+        <input
+        type="radio"
+        id="queryFilterBSER"
+        value="BSER"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Browser
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterCSPD">
+        <input
+        type="radio"
+        id="queryFilterCSPD"
+        value="CSPD"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Connection Speed
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterDVCE">
+        <input
+        type="radio"
+        id="queryFilterDVCE"
+        value="DVCE"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Device Type/OS
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterFOLD">
+        <input
+        type="radio"
+        id="queryFilterFOLD"
+        value="FOLD"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Fold Position
+      </label>
+    </div>
+  </div>
+
+  <div class="col-xs-3">
+    <div class="radio">
+      <label for="queryFilterISPX">
+        <input
+        type="radio"
+        id="queryFilterISPX"
+        value="ISPX"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> ISP
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterINVT">
+        <input
+        type="radio"
+        id="queryFilterINVT"
+        value="INVT"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Inventory
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterDMAX">
+        <input
+        type="radio"
+        id="queryFilterDMAX"
+        value="DMAX"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Location: DMA
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterREGN">
+        <input
+        type="radio"
+        id="queryFilterREGN"
+        value="REGN"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Location: Region
+      </label>
+    </div>
+  </div>
+
+  <div class="col-xs-3">
+    <div class="radio">
+      <label for="queryFilterCHNL">
+        <input
+        type="radio"
+        id="queryFilterCHNL"
+        value="CHNL"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Sizmek by Peer39 Contextual Channel
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterSFTY">
+        <input
+        type="radio"
+        id="queryFilterSFTY"
+        value="SFTY"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Sizmek by Peer39 Contextual Safety
+      </label>
+    </div>
+  </div>
+
+  <div class="col-xs-3">
+    <div class="radio">
+      <label for="queryFilterVAUD">
+        <input
+        type="radio"
+        id="queryFilterVAUD"
+        value="VAUD"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Video - Audio
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterVCON">
+        <input
+        type="radio"
+        id="queryFilterVCON"
+        value="VCON"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Video - Content Initiation
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterVLIN">
+        <input
+        type="radio"
+        id="queryFilterVLIN"
+        value="VLIN"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Video - Linear Format
+      </label>
+    </div>
+    <div class="radio">
+      <label for="queryFilterVPSZ">
+        <input
+        type="radio"
+        id="queryFilterVPSZ"
+        value="VPSZ"
+        ng-change="$ctrl.parseSearch(search)"
+        ng-model="$ctrl.entity.queryFilter.targetDimension"> Video - Player Size
+      </label>
+    </div>
+  </div>
+</div>
+<div class="row targetDimension-parentId">
+  <div class="form-inline">
+    <div class="form-group col-xs-6">
+        <label class="control-label" for="targetDimension.parentId">
+          Filter Query to this Parent Id:
+        </label>
+        <input
+          type="number"
+          ng-change="$ctrl.parseSearch(search)"
+          ng-model="$ctrl.entity.queryFilter.targetDimensionParent"
+          id="targetDimension.parentId"
+          placeholder="Parent Id"
+          class="form-control"
+        />
+    </div>
+</div>

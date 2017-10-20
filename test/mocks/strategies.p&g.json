@@ -1,0 +1,343 @@
+{
+   "data" : [
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_JP_W.L",
+         "id" : 1828434
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_VN_W.L",
+         "id" : 1828423
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_PH_W.L",
+         "id" : 1828422
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_TH_W.L",
+         "id" : 1828419
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_SG_W.L",
+         "id" : 1828196
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_MY_W.L",
+         "id" : 1828178
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_KR_W.L",
+         "id" : 1828166
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_ID_W.L",
+         "id" : 1828154
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G_AU_W.L",
+         "id" : 1828134
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - All LAL | LAL | P&G HH | DecWk3",
+         "id" : 1805731
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - Total  | 1PD | P&G HH | DecWk3",
+         "id" : 1805726
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2|MA - Total | 1PD | P&G HH | DecWk3",
+         "id" : 1805714
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - Essentials | 1PD  | P&G HH | DecWk3",
+         "id" : 1805703
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - Total | 1PD | HP:P&G | NovWk1",
+         "id" : 1722330
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2|MA - Total | 1PD | HP:P&G | NovWk1",
+         "id" : 1722300
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2|MA - All LAL | LAL | HP:P&G | NovWk1",
+         "id" : 1722292
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - All LAL | LAL | HP:P&G | NovWk1",
+         "id" : 1722279
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - ATG Essentials - HP:P&G - NovWk1",
+         "id" : 1695583
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2|MA - ATG Essentials - HP:P&G - NovWk1",
+         "id" : 1695578
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T1|M - Home | P&G Scale_W5",
+         "id" : 1623215
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T1PUB|MA - Spotify | P&G Scale (Reach)_W5",
+         "id" : 1621748
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - All Target Guest | P&G Scale (Spend)_W5",
+         "id" : 1619333
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T1PUB|MA - Spotify (ATG) | P&G Scale (Reach)_W5",
+         "id" : 1616635
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - All Target Guest | P&G Scale_W5",
+         "id" : 1612819
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T1PUB|MA - Spotify (ATG) | P&G Scale_W5",
+         "id" : 1612818
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - Household | HP:P&G Scale #2",
+         "id" : 1571425
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T1PUB|MA -Spotify  | HP: P&G Scale #2",
+         "id" : 1571390
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T1PUB|MA -Spotify (All Target Guest) | HP: P&G Scale",
+         "id" : 1550467
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "T2DLX|M - All Target Guest | HP:P&G Scale",
+         "id" : 1550293
+      },
+      {
+         "campaign" : {
+            "rel" : "campaign",
+            "entity_type" : "campaign",
+            "name" : "P&G_Deals_D.M",
+            "id" : 345395
+         },
+         "entity_type" : "strategy",
+         "name" : "P&G Brands",
+         "id" : 1522791
+      }
+   ],
+   "meta" : {
+      "next_page" : "https://api.mediamath.com/api/v2.0/strategies?page_offset=50&sort_by=-created_on&q=%3Cp%2526g%3E&order_by=descending&api_key=5d1f6022b4cfe3dc1b0728878c592a38&page_limit=30&with=campaign",
+      "etag" : "f6089dedcf44ac2b157d010fcef3df68c948b8a8",
+      "count" : 30,
+      "called_on" : "2016-12-20T18:49:10+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 171
+   }
+}

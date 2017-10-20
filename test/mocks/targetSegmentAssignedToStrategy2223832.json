@@ -1,0 +1,116 @@
+{
+   "data" : [
+      {
+         "strategy_id" : 2223832,
+         "version" : 0,
+         "name" : "Strategy Targeting Segments #6922741",
+         "targeting_segment_id" : 3906,
+         "updated_on" : "2017-04-21T10:46:17+0000",
+         "operator" : "OR",
+         "created_on" : "2017-04-21T10:46:17+0000",
+         "group_identifier" : "tsg2",
+         "entity_type" : "strategy_targeting_segment",
+         "id" : 6922741,
+         "restriction" : "EXCLUDE"
+      },
+      {
+         "strategy_id" : 2223832,
+         "version" : 0,
+         "name" : "Strategy Targeting Segments #6922740",
+         "targeting_segment_id" : 3912,
+         "updated_on" : "2017-04-21T10:46:17+0000",
+         "operator" : "OR",
+         "created_on" : "2017-04-21T10:46:17+0000",
+         "group_identifier" : "tsg2",
+         "entity_type" : "strategy_targeting_segment",
+         "id" : 6922740,
+         "restriction" : "EXCLUDE"
+      },
+      {
+         "strategy_id" : 2223832,
+         "version" : 0,
+         "name" : "Strategy Targeting Segments #6922739",
+         "targeting_segment_id" : 3913,
+         "updated_on" : "2017-04-21T10:46:17+0000",
+         "operator" : "OR",
+         "created_on" : "2017-04-21T10:46:17+0000",
+         "group_identifier" : "tsg2",
+         "entity_type" : "strategy_targeting_segment",
+         "id" : 6922739,
+         "restriction" : "EXCLUDE"
+      },
+      {
+         "strategy_id" : 2223832,
+         "version" : 0,
+         "name" : "Strategy Targeting Segments #6922738",
+         "targeting_segment_id" : 3914,
+         "updated_on" : "2017-04-21T10:46:17+0000",
+         "operator" : "OR",
+         "created_on" : "2017-04-21T10:46:17+0000",
+         "group_identifier" : "tsg2",
+         "entity_type" : "strategy_targeting_segment",
+         "id" : 6922738,
+         "restriction" : "EXCLUDE"
+      },
+      {
+         "strategy_id" : 2223832,
+         "version" : 0,
+         "name" : "Strategy Targeting Segments #6922737",
+         "targeting_segment_id" : 3916,
+         "updated_on" : "2017-04-21T10:46:17+0000",
+         "operator" : "OR",
+         "created_on" : "2017-04-21T10:46:17+0000",
+         "group_identifier" : "tsg2",
+         "entity_type" : "strategy_targeting_segment",
+         "id" : 6922737,
+         "restriction" : "EXCLUDE"
+      },
+      {
+         "strategy_id" : 2223832,
+         "version" : 0,
+         "name" : "Strategy Targeting Segments #6922736",
+         "targeting_segment_id" : 1658,
+         "updated_on" : "2017-04-21T10:46:17+0000",
+         "operator" : "OR",
+         "created_on" : "2017-04-21T10:46:17+0000",
+         "group_identifier" : "tsg2",
+         "entity_type" : "strategy_targeting_segment",
+         "id" : 6922736,
+         "restriction" : "EXCLUDE"
+      },
+      {
+         "strategy_id" : 2223832,
+         "version" : 0,
+         "name" : "Strategy Targeting Segments #6922735",
+         "targeting_segment_id" : 411,
+         "updated_on" : "2017-04-21T10:46:17+0000",
+         "operator" : "OR",
+         "created_on" : "2017-04-21T10:46:17+0000",
+         "group_identifier" : "tsg2",
+         "entity_type" : "strategy_targeting_segment",
+         "id" : 6922735,
+         "restriction" : "EXCLUDE"
+      },
+      {
+         "strategy_id" : 2223832,
+         "version" : 0,
+         "name" : "Strategy Targeting Segments #6922734",
+         "targeting_segment_id" : 3915,
+         "updated_on" : "2017-04-21T10:46:17+0000",
+         "operator" : "OR",
+         "created_on" : "2017-04-21T10:46:17+0000",
+         "group_identifier" : "tsg2",
+         "entity_type" : "strategy_targeting_segment",
+         "id" : 6922734,
+         "restriction" : "EXCLUDE"
+      }
+   ],
+   "meta" : {
+      "etag" : "ee190f21d46a2d00e913149ccdaf8cf435532a0f",
+      "count" : 8,
+      "called_on" : "2017-04-25T03:37:08+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 8
+   }
+}

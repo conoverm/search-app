@@ -1,0 +1,563 @@
+{
+   "data" : [
+      {
+         "entity_type" : "agency",
+         "name" : "IgnitionOne",
+         "id" : 116971,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Weach",
+            "id" : 101572
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "ROI-UP",
+         "id" : 116970,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Weborama",
+            "id" : 100754
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "AdvanDate",
+         "id" : 116969,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "1Advertising",
+            "id" : 101458
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Precom",
+         "id" : 116968,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Publicité Regies Edition et Communication (Precom)",
+            "id" : 101457
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "o-testagency",
+         "id" : 116967,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Rakuten DSP",
+            "id" : 100488
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "DAC_Adflex_Communications",
+         "id" : 116966,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Rakuten DSP",
+            "id" : 100488
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "#CS ARG - Westocean",
+         "id" : 116965,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Headway South America",
+            "id" : 101080
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Lemsip_video",
+         "id" : 116964,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Reckitt Benckiser New Zealand - Global",
+            "id" : 101409
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "DementeDigital",
+         "id" : 116963,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "MCC Medios",
+            "id" : 101534
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Contversion",
+         "id" : 116962,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Hawkers",
+            "id" : 101576
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Ogilvy",
+         "id" : 116961,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Kimberly-Clark Brasil",
+            "id" : 101343
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "DO NOT USE C1052_Wilmington",
+         "id" : 116960,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Gannett Co., Inc.",
+            "id" : 100471
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "UK :: Test :: Marko",
+         "id" : 116959,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "MediaMind",
+            "id" : 100611
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Sansiri PCL",
+         "id" : 116958,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Media Donuts",
+            "id" : 100195
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "letgo",
+         "id" : 116957,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Mobile Cloud Media",
+            "id" : 101571
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Test Adobe",
+         "id" : 116956,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Adobe Test Org",
+            "id" : 101578
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Blinks",
+         "id" : 116955,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Kimberly-Clark Brasil",
+            "id" : 101343
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Faubourg 54 (#37760) - FR",
+         "id" : 116954,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Target Performance",
+            "id" : 101135
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "shopping",
+         "id" : 116953,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Okalia Limited",
+            "id" : 101573
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "WT",
+         "id" : 116952,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Exiber Servicos Eletronicos LTDA",
+            "id" : 101158
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Dentsu Webchutney",
+         "id" : 116951,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Amnet India",
+            "id" : 100890
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Webtech",
+         "id" : 116950,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Exiber Servicos Eletronicos LTDA",
+            "id" : 101158
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "HAVAS",
+         "id" : 116949,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Infinia",
+            "id" : 101469
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "HAVAS",
+         "id" : 116948,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Infinia",
+            "id" : 101469
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Capstrat",
+         "id" : 116947,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Huddled Masses",
+            "id" : 100282
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "#CSMX - Capital Digital",
+         "id" : 116946,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Headway Mexico & Central America",
+            "id" : 100663
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Connected",
+         "id" : 116945,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Mobimight",
+            "id" : 101474
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "CM",
+         "id" : 116944,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Mobimight",
+            "id" : 101474
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Donut",
+         "id" : 116943,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Okalia Limited",
+            "id" : 101573
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "MediaDonuts MY",
+         "id" : 116942,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Media Donuts",
+            "id" : 100195
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Wishmedia_Test",
+         "id" : 116941,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Wishmedia Korea",
+            "id" : 101520
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Precom Auto",
+         "id" : 116940,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Publicité Regies Edition et Communication (Precom)",
+            "id" : 101457
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Test Agency",
+         "id" : 116939,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Ctrl Shift Test",
+            "id" : 101566
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "#CSMX - Integra en Medios",
+         "id" : 116938,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Headway Mexico & Central America",
+            "id" : 100663
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "mlmar29",
+         "id" : 116937,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "V12 Data",
+            "id" : 100420
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "B52",
+         "id" : 116936,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "ACME Org",
+            "id" : 100048
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "new company test line item",
+         "id" : 116935,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "V12 Data",
+            "id" : 100420
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Expertenshop",
+         "id" : 116934,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "eComCon test",
+            "id" : 101569
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Expertenshop",
+         "id" : 116933,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "eComCon",
+            "id" : 100242
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Mtamaison (#37712) - FR",
+         "id" : 116932,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Target Performance",
+            "id" : 101135
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Mythings",
+         "id" : 116931,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Bet",
+            "id" : 100821
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Conde Nast",
+         "id" : 116930,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Adroit Digital",
+            "id" : 100426
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "New Company test 0328",
+         "id" : 116929,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "V12 Data",
+            "id" : 100420
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Balzan",
+         "id" : 116928,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "ACME Org",
+            "id" : 100048
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Test Co 0328",
+         "id" : 116927,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "V12 Data",
+            "id" : 100420
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "OMD",
+         "id" : 116926,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Infinia",
+            "id" : 101469
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Ambiendo",
+         "id" : 116925,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Target Performance",
+            "id" : 101135
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "Media Doctor",
+         "id" : 116924,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "ARBOdigital",
+            "id" : 100742
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "VML",
+         "id" : 116923,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Media Donuts",
+            "id" : 100195
+         }
+      },
+      {
+         "entity_type" : "agency",
+         "name" : "dencco",
+         "id" : 116922,
+         "organization" : {
+            "rel" : "organization",
+            "entity_type" : "organization",
+            "name" : "Rakuten DSP",
+            "id" : 100488
+         }
+      }
+   ],
+   "meta" : {
+      "next_page" : "https://api.mediamath.com/api/v2.0/agencies?api_key=5d1f6022b4cfe3dc1b0728878c592a38&order_by=descending&page_limit=50&page_offset=50&q=&sort_by=-created_on&with=organization",
+      "etag" : "996cf87ce1384bb0532378ccd2984e36b8028a57",
+      "count" : 50,
+      "called_on" : "2017-04-04T17:51:26+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 16901
+   }
+}

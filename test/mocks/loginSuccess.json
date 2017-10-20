@@ -1,0 +1,16 @@
+{
+  "data": {
+    "session": {
+      "current_time": "2016-12-01T18:34:45",
+      "sessionid": "ba1e225997dd4f1891e821dcb429521c",
+      "expires": "2016-12-02T18:34:45"
+    },
+    "entity_type": "user",
+    "name": "mconover",
+    "id": 8415
+  },
+  "meta": {
+    "status": "ok"
+  },
+  "Accept-Header": "vnd.mediamath.v1+json.json"
+}

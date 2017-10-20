@@ -1,0 +1,56 @@
+<table
+  class="table table-hover results-table"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-2">Name, Id</th>
+      <th class="col-xs-1">Price</th>
+      <th class="col-xs-2">Owner</th>
+      <th class="col-xs-2">Permissions</th>
+      <th class="col-xs-2">Attributes</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+    <tr ng-repeat-start="data in $ctrl.data | filter:data.name"
+        ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')">
+      <td class="copy-icon">
+        <span class="glyphicon glyphicon-file" aria-hidden="true"
+          id="style{{data.id}}"></span>
+      </td>
+      <td>
+        <div>{{data.name}}</div>
+        <div>{{data.id}}</div>
+      </td>
+      <td>
+        <div>{{data.price_method}} {{data.price_type}} </div>
+        <div>{{data.price.currency_code}} {{data.price.value | currency:''}}</div>
+      </td>
+      <td> 
+        {{data.owner.type}} {{data.owner.id}}
+      </td> 
+      <td>
+        <div ng-if=!!data.permissions.all_organizations>All Organizations</div>
+        <div ng-if="data.permissions.organization_ids.length > 0">Organization Ids {{data.permissions.organization_ids}}</div>
+        <div ng-if="data.permissions.agency_ids.length > 0">Agency Ids {{data.permissions.agency_ids}}</div>
+        <div ng-if="data.permissions.advertiser_ids.length > 0">Advertiser Ids {{data.permissions.advertiser_ids}}</div>
+      </td>
+      <td>
+        <div>Status: {{data.status}}</div>
+        <div ng-if=!!data.supply_source_id>Supply Source Id: {{data.supply_source_id}}</div>
+        <div ng-if=!!data.sub_supply_source_id>Sub Supply Source Id: {{data.sub_supply_source_id}}</div>
+        <div ng-if=!!data.deal_identifier>Identifier: {{data.deal_identifier}}</div>
+        <div ng-if=!!data.bill_type>Bill Type: {{data.bill_type}}</div>
+        <div ng-if=!!data.updated_on>Updated On: {{data.updated_on | date:'MMM-d-yy HH:mm Z'}}</div>
+      </td>
+    </tr>
+    <tr ng-repeat-end ng-if=!!data.description>
+      <td style="border-top: 0"></td>
+      <td style="border-top: 0" colspan=5><strong>Description</strong>: {{data.description}}</td>
+    </tr>
+  </tbody>
+</table>

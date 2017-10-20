@@ -1,0 +1,72 @@
+{
+   "data" : [
+      {
+         "strategy_id" : 1896596,
+         "version" : 0,
+         "name" : "Strategy Audience Segments #2024661",
+         "updated_on" : "2017-01-10T14:49:41+0000",
+         "audience_segment_id" : 1279592,
+         "group_identifier" : "g1",
+         "created_on" : "2017-01-10T14:49:41+0000",
+         "entity_type" : "strategy_audience_segment",
+         "id" : 2024661,
+         "restriction" : "INCLUDE"
+      },
+      {
+         "strategy_id" : 1896596,
+         "version" : 0,
+         "name" : "Strategy Audience Segments #2024660",
+         "updated_on" : "2017-01-10T14:49:41+0000",
+         "audience_segment_id" : 1280662,
+         "group_identifier" : "g1",
+         "created_on" : "2017-01-10T14:49:41+0000",
+         "entity_type" : "strategy_audience_segment",
+         "id" : 2024660,
+         "restriction" : "INCLUDE"
+      },
+      {
+         "strategy_id" : 1896596,
+         "version" : 0,
+         "name" : "Strategy Audience Segments #2024659",
+         "updated_on" : "2017-01-10T14:49:41+0000",
+         "audience_segment_id" : 1276187,
+         "group_identifier" : "g1",
+         "created_on" : "2017-01-10T14:49:41+0000",
+         "entity_type" : "strategy_audience_segment",
+         "id" : 2024659,
+         "restriction" : "INCLUDE"
+      },
+      {
+         "strategy_id" : 1896596,
+         "version" : 0,
+         "name" : "Strategy Audience Segments #2024658",
+         "updated_on" : "2017-01-10T14:49:41+0000",
+         "audience_segment_id" : 1659568,
+         "group_identifier" : "g1",
+         "created_on" : "2017-01-10T14:49:41+0000",
+         "entity_type" : "strategy_audience_segment",
+         "id" : 2024658,
+         "restriction" : "INCLUDE"
+      },
+      {
+         "strategy_id" : 1896596,
+         "version" : 0,
+         "name" : "Strategy Audience Segments #2024657",
+         "updated_on" : "2017-01-10T14:49:41+0000",
+         "audience_segment_id" : 1452673,
+         "group_identifier" : "g1",
+         "created_on" : "2017-01-10T14:49:41+0000",
+         "entity_type" : "strategy_audience_segment",
+         "id" : 2024657,
+         "restriction" : "INCLUDE"
+      }
+   ],
+   "meta" : {
+      "etag" : "ebb67c7b6b13281a694059c659ddf28544fbdf59",
+      "count" : 5,
+      "called_on" : "2017-04-04T17:56:23+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 5
+   }
+}

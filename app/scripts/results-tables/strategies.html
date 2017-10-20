@@ -1,0 +1,54 @@
+<table
+  class="table table-hover results-table raw-json-option"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-2">Name, Id</th>
+      <th class="col-xs-1">Goal, Budget</th>
+      <th class="col-xs-1">Updated</th>
+      <th class="col-xs-1">Frequency</th>
+      <th class="text-capitalize col-xs-2">{{$ctrl.selectedEntity.parentEntityType}}, Id</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+    <tr ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')"
+      ng-repeat-start="data in $ctrl.data | filter:data.name track by $index">
+      <td class="copy-icon">
+        <span class="glyphicon glyphicon-file" aria-hidden="true" id="style{{data.id}}"></span>
+      </td>
+      <td>
+        <div>{{data.name}}</div>
+        <div>{{data.id}}</div>
+      </td>
+      <td>{{data.goal_type | uppercase}}
+        <div ng-if="!!data.goal_value[0].currency_code || !!data.goal_value[0].value">
+          {{data.goal_value[0].currency_code}} {{data.goal_value[0].value | currency:''}}
+        </div>
+        <br/>
+        {{data.budget[0].currency_code}} {{data.budget[0].value | currency:''}}
+      </td>
+      <td>{{ data.updated_on | date:'MMM-d-yy HH:mm Z' }}</td>
+      <td>
+        <div>Interval: {{data.frequency_interval}}</div>
+        <div>Amount: {{data.frequency_amount}}</div>
+        <div>Opt: {{data.frequency_optimization}}</div>
+        <div>Type: {{data.frequency_type}}</div>
+      </td>
+      <td>
+        <div>{{data[$ctrl.selectedEntity.parentEntityType].name}}</div>
+        <div>{{data[$ctrl.selectedEntity.parentEntityType].id}}</div>
+      </td>
+    </tr>
+    <tr ng-repeat-end>
+      <td colspan="6">
+        <div ng-click="data.show = !data.show">…</div>
+        <pre ng-hide="!data.show">{{data | json}}</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>

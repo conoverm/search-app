@@ -1,0 +1,292 @@
+{
+   "data" : [
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.05
+            }
+         ],
+         "version" : 0,
+         "external_code" : "14221001",
+         "name" : "Sports",
+         "child_count" : 45,
+         "updated_on" : "2017-01-12T15:54:53+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.05
+            }
+         ],
+         "created_on" : "2016-05-11T19:45:15+0000",
+         "targeting_vendor_id" : 3,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "DoubleVerify - DV Contextual - Sports",
+         "tag" : "dv:14221001",
+         "id" : 4593,
+         "parent_targeting_segment_id" : 5092
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.05
+            }
+         ],
+         "version" : 0,
+         "external_code" : "14222025",
+         "name" : "Paintball Sports",
+         "child_count" : 0,
+         "updated_on" : "2017-01-12T15:54:53+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.05
+            }
+         ],
+         "created_on" : "2016-05-11T19:45:15+0000",
+         "targeting_vendor_id" : 3,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "DoubleVerify - DV Contextual - Sports - Paintball Sports",
+         "tag" : "dv:14222025",
+         "id" : 5034,
+         "parent_targeting_segment_id" : 4593
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "version" : 0,
+         "external_code" : "4506",
+         "name" : "Sports Games",
+         "child_count" : 0,
+         "updated_on" : "2017-03-02T22:28:15+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "created_on" : "2016-05-11T19:04:19+0000",
+         "targeting_vendor_id" : 2,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "Peer39 by Sizmek - Mobile Apps - Context - Mobile Games Apps - Sports Games",
+         "tag" : "pe:4506",
+         "id" : 3975,
+         "parent_targeting_segment_id" : 3959
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "version" : 0,
+         "external_code" : "4481",
+         "name" : "Navigation & Transportation Apps",
+         "child_count" : 0,
+         "updated_on" : "2017-03-02T22:28:15+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "created_on" : "2016-05-11T19:04:19+0000",
+         "targeting_vendor_id" : 2,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "Peer39 by Sizmek - Mobile Apps - Context - Navigation & Transportation Apps",
+         "tag" : "pe:4481",
+         "id" : 3980,
+         "parent_targeting_segment_id" : 3946
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "version" : 0,
+         "external_code" : "4487",
+         "name" : "Sports Apps",
+         "child_count" : 0,
+         "updated_on" : "2017-03-02T22:28:15+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "created_on" : "2016-05-11T19:04:19+0000",
+         "targeting_vendor_id" : 2,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "Peer39 by Sizmek - Mobile Apps - Context - Sports Apps",
+         "tag" : "pe:4487",
+         "id" : 3986,
+         "parent_targeting_segment_id" : 3946
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "version" : 0,
+         "external_code" : "5873",
+         "name" : "Sports",
+         "child_count" : 21,
+         "updated_on" : "2017-03-02T22:28:15+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "created_on" : "2015-10-13T18:28:48+0000",
+         "targeting_vendor_id" : 2,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "Peer39 by Sizmek - Context - Standard - Sports",
+         "tag" : "pe:5873",
+         "id" : 141,
+         "parent_targeting_segment_id" : 4023
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "version" : 0,
+         "external_code" : "5889",
+         "name" : "Winter Sports",
+         "child_count" : 1,
+         "updated_on" : "2017-03-02T22:28:15+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "created_on" : "2015-10-13T18:28:48+0000",
+         "targeting_vendor_id" : 2,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "Peer39 by Sizmek - Context - Standard - Sports - Winter Sports",
+         "tag" : "pe:5889",
+         "id" : 304,
+         "parent_targeting_segment_id" : 141
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "version" : 0,
+         "external_code" : "5866",
+         "name" : "Motorsports",
+         "child_count" : 0,
+         "updated_on" : "2017-03-02T22:28:15+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "created_on" : "2015-10-13T18:28:48+0000",
+         "targeting_vendor_id" : 2,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "Peer39 by Sizmek - Context - Standard - Sports - Motorsports",
+         "tag" : "pe:5866",
+         "id" : 299,
+         "parent_targeting_segment_id" : 141
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "version" : 0,
+         "external_code" : "6999",
+         "name" : "Transportation",
+         "child_count" : 0,
+         "updated_on" : "2017-03-02T22:28:15+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "created_on" : "2015-10-13T18:28:48+0000",
+         "targeting_vendor_id" : 2,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "Peer39 by Sizmek - Context - Standard - News - Transportation",
+         "tag" : "pe:6999",
+         "id" : 361,
+         "parent_targeting_segment_id" : 133
+      },
+      {
+         "buyable" : true,
+         "wholesale_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "version" : 0,
+         "external_code" : "10437",
+         "name" : "Sports Cars",
+         "child_count" : 0,
+         "updated_on" : "2017-03-02T22:28:15+0000",
+         "objective_id" : 2,
+         "retail_cpm" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0.15
+            }
+         ],
+         "created_on" : "2015-10-13T18:28:48+0000",
+         "targeting_vendor_id" : 2,
+         "entity_type" : "path_targeting_segment",
+         "full_path" : "Peer39 by Sizmek - Context - Standard - Automotive - Vehicles - Sports Cars",
+         "tag" : "pe:10437",
+         "id" : 398,
+         "parent_targeting_segment_id" : 171
+      }
+   ],
+   "meta" : {
+      "etag" : "4a13d28747171b197a245935faa8ca63da00b098",
+      "count" : 10,
+      "called_on" : "2017-04-19T17:39:19+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 10
+   }
+}

@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-xs-offset-3 col-xs-6">
+    <div class="form-inline" style="margin-bottom: 15px">
+      <div class="form-group">
+        <label for="parent-provider">Optionally filter by Provider: 
+          <select class="form-control" name="parent-provider" id="parent-provider"
+          ng-options="provider as provider.name for provider in $ctrl.entity.queryFilter.parentProviderList"
+          ng-model="$ctrl.parentProvider"></select>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

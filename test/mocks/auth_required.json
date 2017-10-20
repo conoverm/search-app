@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "status": "auth_required"
+  },
+  "Accept-Header": "vnd.mediamath.v1+json.json"
+}

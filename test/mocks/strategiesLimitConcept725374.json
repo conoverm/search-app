@@ -1,0 +1,174 @@
+{
+   "data" : [
+      {
+         "run_on_streaming" : false,
+         "use_mm_freq" : false,
+         "run_on_display" : true,
+         "zone_name" : "Etc/GMT",
+         "updated_on" : "2016-03-24T16:48:32+0000",
+         "frequency_interval" : "day",
+         "campaign_id" : 246868,
+         "targeting_segment_exclude_op" : "OR",
+         "created_on" : "2016-03-04T19:02:17+0000",
+         "campaign" : {
+            "use_mm_freq" : false,
+            "rel" : "campaign",
+            "spend_cap_type" : "asap",
+            "zone_name" : "Etc/GMT",
+            "frequency_interval" : "day",
+            "updated_on" : "2016-03-29T09:35:30+0000",
+            "use_default_ad_server" : false,
+            "initial_start_date" : "2016-03-03T19:00:00+0000",
+            "restrict_targeting_to_deterministic_id" : false,
+            "created_on" : "2016-03-03T18:33:38+0000",
+            "id" : 246868,
+            "total_budget" : [
+               {
+                  "currency_code" : "USD",
+                  "value" : 55779.59
+               }
+            ],
+            "service_type" : "SELF",
+            "currency_code" : "USD",
+            "has_custom_attribution" : false,
+            "name" : "Telefonica_Wearables Sales March_2016",
+            "ad_server_id" : 6,
+            "frequency_amount" : 10,
+            "restrict_targeting_to_same_device_id" : false,
+            "suspicious_traffic_filter_level" : 25,
+            "end_date" : "2016-03-31T22:59:00+0000",
+            "frequency_optimization" : false,
+            "advertiser_id" : 135824,
+            "conversion_variable_minutes" : 1,
+            "minimize_multi_ads" : true,
+            "status" : false,
+            "goal_type" : "cpa",
+            "frequency_type" : "asap",
+            "margin_pct" : 0,
+            "dcs_data_is_campaign_level" : false,
+            "pv_window_minutes" : 10080,
+            "impression_cap_type" : "no-limit",
+            "goal_value" : [
+               {
+                  "currency_code" : "USD",
+                  "value" : 200
+               }
+            ],
+            "spend_cap_amount" : [
+               {
+                  "currency_code" : "USD",
+                  "value" : 3000
+               }
+            ],
+            "entity_type" : "campaign",
+            "pc_window_minutes" : 43200,
+            "io_name" : "",
+            "start_date" : "2016-03-03T19:00:00+0000",
+            "override_suspicious_traffic_filter" : false,
+            "io_reference_num" : "",
+            "version" : 9,
+            "agency_fee_pct" : 0,
+            "advertiser" : {
+               "rel" : "advertiser",
+               "entity_type" : "advertiser",
+               "name" : "FMLON_Telefonica",
+               "id" : 135824,
+               "agency" : {
+                  "rel" : "agency",
+                  "entity_type" : "agency",
+                  "name" : "FMLON_OFF",
+                  "id" : 106157,
+                  "organization" : {
+                     "rel" : "organization",
+                     "entity_type" : "organization",
+                     "name" : "AffiPerf (SS)",
+                     "id" : 100051
+                  }
+               }
+            },
+            "impression_cap_automatic" : true,
+            "spend_cap_automatic" : false,
+            "conversion_type" : "variable",
+            "merit_pixel_id" : 682007,
+            "pv_pct" : 100
+         },
+         "targeting_segment_include_op" : "OR",
+         "run_on_all_pmp" : false,
+         "id" : 1218272,
+         "impression_pacing_interval" : "day",
+         "currency_code" : "USD",
+         "use_campaign_start" : false,
+         "name" : "PMP_DTP_Immediate Media_Sports & Health_SPEND",
+         "frequency_amount" : 4,
+         "description" : "",
+         "type" : "GBO",
+         "pixel_target_expr" : "NOT ( [975103] OR [975121] OR [975122] OR [975123] OR [975124] OR [975125] OR [975126] OR [975127] OR [975128] OR [975129] OR [975130] OR [975131] OR [975416] )",
+         "impression_pacing_type" : "no-limit",
+         "bid_price_is_media_only" : true,
+         "frequency_optimization" : false,
+         "supply_type" : "RTB",
+         "pacing_type" : "asap",
+         "goal_type" : "spend",
+         "frequency_type" : "asap",
+         "status" : true,
+         "budget" : [
+            {
+               "currency_code" : "USD",
+               "value" : 55779.59
+            }
+         ],
+         "effective_goal_value" : [
+            {
+               "currency_code" : "USD",
+               "value" : "2.0000"
+            }
+         ],
+         "goal_value" : [
+            {
+               "currency_code" : "USD",
+               "value" : 2
+            }
+         ],
+         "pacing_amount" : [
+            {
+               "currency_code" : "USD",
+               "value" : 20
+            }
+         ],
+         "site_restriction_transparent_urls" : true,
+         "media_type" : "DISPLAY",
+         "entity_type" : "strategy",
+         "start_date" : "2016-03-05T00:00:00+0000",
+         "run_on_mobile" : true,
+         "use_optimization" : false,
+         "max_bid" : [
+            {
+               "currency_code" : "USD",
+               "value" : 7
+            }
+         ],
+         "audience_segment_include_op" : "OR",
+         "bid_aggressiveness" : 50,
+         "version" : 26,
+         "run_on_all_exchanges" : false,
+         "audience_segment_exclude_op" : "OR",
+         "site_selectiveness" : "REDUCED",
+         "use_campaign_end" : true,
+         "min_bid" : [
+            {
+               "currency_code" : "USD",
+               "value" : 0
+            }
+         ],
+         "pacing_interval" : "day"
+      }
+   ],
+   "meta" : {
+      "etag" : "56e9110e0a3e0c2f5dca30cd2935a963bab3b4e4",
+      "count" : 1,
+      "called_on" : "2017-08-07T18:34:26+0000",
+      "status" : "ok",
+      "offset" : 0,
+      "total_count" : 1
+   }
+}

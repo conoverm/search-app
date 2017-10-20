@@ -1,0 +1,62 @@
+{
+   "data" : [
+      {
+         "entity_type" : "ad_server",
+         "name" : "Atlas",
+         "id" : 1
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "DART for Advertisers (DFA)",
+         "id" : 2
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "Sizmek MDX",
+         "id" : 3
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "Mediaplex",
+         "id" : 4
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "Yield Manager",
+         "id" : 5
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "Other",
+         "id" : 6
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "PointRoll",
+         "id" : 7
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "EyeWonder",
+         "id" : 8
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "TerminalOne",
+         "id" : 9
+      },
+      {
+         "entity_type" : "ad_server",
+         "name" : "mediaFORGE",
+         "id" : 11
+      }
+   ],
+   "meta" : {
+      "etag" : "a9c20b20b765ef513c783148dde9b8f3b5dc3baf",
+      "count" : 10,
+      "called_on" : "2017-01-04T21:57:04+0000",
+      "status" : "ok",
+      "offset" : "0",
+      "total_count" : 10
+   }
+}

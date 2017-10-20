@@ -1,0 +1,15 @@
+bower_components/
+node_modules/
+app/
+.tmp/
+test/
+.bowerrc
+.editorconfig
+.gitignore
+.gitmessage
+.jscsrc
+.jshintrc
+bower.json
+*.md
+*.sublime*
+.vscode/

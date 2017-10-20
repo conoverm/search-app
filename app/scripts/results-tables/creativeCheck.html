@@ -1,0 +1,60 @@
+<table class="table results-table">
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-2">Name, Id</th>
+      <th class="col-xs-1">Advertiser Id</th>
+      <th class="col-xs-1">External Id</th>
+      <th class="col-xs-3">Attributes</th>
+      <th class="text-capitalize col-xs-2">
+        {{$ctrl.selectedEntity.parentEntityType}}, {{$ctrl.selectedEntity.parentEntityType}} Id
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      ng-repeat-start="data in $ctrl.data | filter:data.name track by $index"
+      ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')">
+    <td class="copy-icon">
+      <span class="glyphicon glyphicon-file" aria-hidden="true" id="style{{$ctrl.data.id}}"></span>
+    </td>
+    <td>
+      <div>{{data.name}}</div>
+      <div>{{data.id}}</div>
+    </td>
+    <td>
+      {{data.advertiser_id}}
+    </td>
+    <td>{{data.external_identifier}}</td>
+    <td>
+      <div>Status: {{data.status}}</div>
+      <div ng-if="data.approval_status">Approval Status: {{data.approval_status}}</div>
+      <div ng-if="data.tag_type">Tag Type: {{data.tag_type}}</div>
+      <div ng-if="data.ad_server_type">Ad Server Type: {{data.ad_server_type}}</div>
+      <div ng-if="data.t1as">T1AS: {{data.t1as}}</div>
+      <div ng-if="data.file_type">File Type: {{data.file_type}}</div>
+      <div ng-if="data.ad_format">Ad Format: {{data.ad_format}}</div>
+      <div ng-if="data.rich_media">Rich Media: {{data.rich_media}}</div>
+      <div ng-if="data.expansion_trigger">Expansion Trigger: {{data.expansion_trigger}}</div>
+      <div ng-if="data.expansion_direction">Expansion Direction: {{data.expansion_direction}}</div>
+      <div ng-if="data.rejected_reason">Rejected Reason: {{data.rejected_reason}}</div>
+    </td>
+    <td>
+      <div>{{data.concept.name}}</div>
+      <div>{{data.concept.id}}</div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="6">
+      <creative-check-tag creative="data"></creative-check-tag>
+    </td>
+  </tr>
+  <tr ng-repeat-end>
+    <td colspan="6">
+      <div ng-click="data.show = !data.show">…</div>
+      <pre ng-hide="!data.show">{{data | json}}</pre>
+    </td>
+  </tr>
+  </tbody>
+</table>

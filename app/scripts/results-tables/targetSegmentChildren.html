@@ -1,0 +1,40 @@
+<table
+  class="table table-hover results-table"
+  tagged-infinite-scroll="$ctrl.getNextResultSet()"
+  tagged-infinite-scroll-disabled="$ctrl.infiniteFetching || !$ctrl.nextPage"
+>
+  <thead>
+    <tr>
+      <p class="help-block">Click row to Copy ID to Clipboard</p>
+      <p>Total Results: {{$ctrl.resultsCount || 0}}</p>
+      <th class="copy-icon"></th>
+      <th class="col-xs-2">Name, Id</th>
+      <th class="col-xs-2">Path</th>
+      <th class="col-xs-1">CPM</th>
+      <th class="col-xs-2">Attributes</th>
+      <th class="col-xs-1">Parent Id</th>
+    </tr>
+  </thead>
+  <tbody nextPage="$ctrl.nextpage">
+    <tr ng-click="$ctrl.storeId(data.id);$ctrl.styleIcon(data.id, 'grey')"
+    ng-repeat="data in $ctrl.data | filter:data.name track by $index">
+      <td class="copy-icon"><span class="glyphicon glyphicon-file" aria-hidden="true"  id="style{{data.id}}"></span></td>
+      <td>
+        {{data.name}}
+        <div>{{data.id}}</div>
+      </td>
+      <td>{{data.full_path}}</td>
+      <td>{{ data.retail_cpm[0].value | currency: data.retail_cpm[0].currency_code + ' ' }}</td>
+      <td>
+        <div ng-if="!!data.buyable">Buyable</div>
+        <div ng-if="!!data.child_count">Child Count: {{data.child_count}}</div>
+        <div ng-if="!!data.targeting_vendor_id">Targeting Vendor Id: {{data.targeting_vendor_id}}</div>
+        <div ng-if="!!data.objective_id">Objective ID: {{data.objective_id | number}}</div>
+        <div ng-if="!!data.external_code">External Code: {{data.external_code}}</div>
+      </td>
+      <td>
+        <div>{{data.parent_targeting_segment_id}}</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
